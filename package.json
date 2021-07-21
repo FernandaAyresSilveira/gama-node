@@ -1,0 +1,27 @@
+{
+  "name": "pergunta-resposta-nodejs",
+  "version": "1.0.0",
+  "description": "Pacote para testar o funcionamento do NPM",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandaAyresSilveira/gama-node.git"
+  },
+  "keywords": [
+    "url",
+    "perguntas",
+    "resposta"
+  ],
+  "author": "Fernanda Ayres Silveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandaAyresSilveira/gama-node/issues"
+  },
+  "homepage": "https://github.com/FernandaAyresSilveira/gama-node#readme",
+  "dependencies": {
+    "query-string": "^7.0.1"
+  }
+}
