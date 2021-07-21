@@ -10,26 +10,17 @@ const port = 3000;
 
 const server = http.createServer((req, res) => {
 
-    //Pegar a pergunta na url    
-    const params= queryString.parse(url.parse(req.url,true).search);
-    console.log(params.pergunta);
-
-    //Verificar a pergunta e escolher uma resposta
-    let resposta;
-    if(params.pergunta =='melhor-filme'){
-      resposta = 'Star Wars';
-    }else if(params.pergunta =='melhor-tecnologia-backend'){
-      resposta ='Node JS';
-    }
-    else{
-      resposta ='não sei, desculpe :(';
-    }
-
-
-    //Retornar a resposta escolhida
+  // Criar um usuario
+      //Receber as informacoes do usuario
+      const params= queryString.parse(url.parse(req.url,true).search);
+      console.log(params);
+      //Salvar as informações do usuario
+  // Atualizar um usuario
+  // Selecionar usuario
+  // Remover usuario
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end(resposta);
+    res.end("Hello World");
 });
 
 // Execução
