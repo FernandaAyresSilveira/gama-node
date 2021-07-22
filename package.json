@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/FernandaAyresSilveira/gama-node#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
     "query-string": "^7.0.1"
   }
 }
